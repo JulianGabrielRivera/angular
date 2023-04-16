@@ -1,0 +1,12 @@
+
+<!-- these curly brackets are typescript scopes to render the title from the ts logical part this is data binding -->
+<!-- we can run javascript and add numbers inside these two curlies -->
+<!-- string interpolation -->
+
+<p>{{title}}</p>
+<p>{{fromParent}}</p>
+<app-postlist [fromPostParent]="postParentMessage"></app-postlist>
+
+<!-- angular has its own click event , it doesnt use onClick-->
+<button (click)="sendMessage()">Click</button>
+
